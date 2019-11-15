@@ -1,0 +1,35 @@
+{
+  "name": "@matter-in-motion/templates.nunjucks",
+  "version": "1.0.0",
+  "description": "Matter in Motion Extension. Nunjucks templates",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matter-in-motion/templates.nunjucks.git"
+  },
+  "keywords": [
+    "matter-in-motion",
+    "mmextension",
+    "templates",
+    "nunjucks",
+    "extension"
+  ],
+  "author": "Alexey Novikov <v@2dubs.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matter-in-motion/templates.nunjucks/issues"
+  },
+  "homepage": "https://github.com/matter-in-motion/templates.nunjucks#readme",
+  "devDependencies": {
+    "@matter-in-motion/app": "^1.0.0",
+    "@matter-in-motion/loggers.pino": "^1.0.0",
+    "ava": "^2.4.0",
+    "nyc": "^14.1.1"
+  },
+  "dependencies": {
+    "nunjucks": "^3.2.0"
+  }
+}
